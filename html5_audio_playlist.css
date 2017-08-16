@@ -1,7 +1,10 @@
-/* Font Family
-================================================== */
 
-@import url("https:////fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+
+
+        /* Font Family
+        ================================================== */
+
+        @import url("https:////fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
 
 
 /* Desktop
@@ -15,7 +18,7 @@
 ================================================== */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-.container { width:556px; }
+	.container { width:556px; }
 }
 
 
@@ -23,7 +26,7 @@
 ================================================== */
 
 @media only screen and (max-width: 767px) {
-.container { width:300px; }
+	.container { width:300px; }
 }
 
 
@@ -31,60 +34,23 @@
 ================================================== */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container { width:420px; }
+	.container { width:420px; }
 }
 
 
 /* CSS Reset
 ================================================== */
 
-html,body,div,span,h1,h6,p,a,ul,li,audio {
-border:0;
-font:inherit;
-font-size:100%;
-margin:0;
-padding:0;
-vertical-align:baseline;
-}
-
-body { line-height:1; }
-ul { list-style:none; }
-
-
 /* Basic Styles
 ================================================== */
-
-html,body {
--webkit-font-smoothing:antialiased;
--webkit-text-size-adjust:100%;
-background-color:#111;
-color:#C8C7C8;
-font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight:300;
-padding:5px 0;
-}
-
-* {
--webkit-tap-highlight-color:rgba(0,0,0,0);
--webkit-tap-highlight-color:transparent;
-}
 
 
 /* Typography
 ================================================== */
 
-h1,h6,p { color:#808080; font-weight:200; }
-h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
-h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
-p { font-size:18px; line-height:20px; margin:0 0 2px; }
-
 
 /* Links
 ================================================== */
-
-a,a:visited { color:#ddd; outline:0; text-decoration:underline; }
-a:hover,a:focus { color:#bbb; }
-p a,p a:visited { line-height:inherit; }
 
 
 /* Misc.
@@ -229,41 +195,41 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover { backgro
 
 /* Tablet Portrait */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-audio { width:526px; }
-html[data-useragent*="MSIE 9.0"] audio { width:536px; }
-html[data-useragent*="MSIE 10.0"] audio { width:543px; }
-html[data-useragent*="rv:11.0"] audio { width:551px; }
-html[data-useragent*="OS 7"] audio { width:546px; }
-html[data-useragent*="OS 8"] audio { width:550px; }
-html[data-useragent*="OS 9"] audio { width:550px; }
-html[data-useragent*="Chrome"] audio { width:533px; }
-html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:545px; }
+	audio { width:526px; }
+	html[data-useragent*="MSIE 9.0"] audio { width:536px; }
+	html[data-useragent*="MSIE 10.0"] audio { width:543px; }
+	html[data-useragent*="rv:11.0"] audio { width:551px; }
+	html[data-useragent*="OS 7"] audio { width:546px; }
+	html[data-useragent*="OS 8"] audio { width:550px; }
+	html[data-useragent*="OS 9"] audio { width:550px; }
+	html[data-useragent*="Chrome"] audio { width:533px; }
+	html[data-useragent*="Chrome"][data-useragent*="Android"] audio { margin-left:4px; width:545px; }
 }
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-audio { width:390px; }
-html[data-useragent*="MSIE 9.0"] audio { width:400px; }
-html[data-useragent*="MSIE 10.0"] audio { width:407px; }
-html[data-useragent*="rv:11.0"] audio { width:415px; }
-html[data-useragent*="OS 7"] audio { width:410px; }
-html[data-useragent*="OS 8"] audio { width:414px; }
-html[data-useragent*="OS 9"] audio { width:414px; }
-html[data-useragent*="Chrome"] audio { width:397px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:410px; }
-#npTitle { width:245px; }
+	audio { width:390px; }
+	html[data-useragent*="MSIE 9.0"] audio { width:400px; }
+	html[data-useragent*="MSIE 10.0"] audio { width:407px; }
+	html[data-useragent*="rv:11.0"] audio { width:415px; }
+	html[data-useragent*="OS 7"] audio { width:410px; }
+	html[data-useragent*="OS 8"] audio { width:414px; }
+	html[data-useragent*="OS 9"] audio { width:414px; }
+	html[data-useragent*="Chrome"] audio { width:397px; }
+	html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:410px; }
+	#npTitle { width:245px; }
 }
 
 /* Mobile Portrait */
 @media only screen and (max-width: 479px) {
-audio { width:270px; }
-html[data-useragent*="MSIE 9.0"] audio { width:280px; }
-html[data-useragent*="MSIE 10.0"] audio { width:287px; }
-html[data-useragent*="rv:11.0"] audio { width:295px; }
-html[data-useragent*="OS 7"] audio { width:290px; }
-html[data-useragent*="OS 8"] audio { width:294px; }
-html[data-useragent*="OS 9"] audio { width:294px; }
-html[data-useragent*="Chrome"] audio { width:277px; }
-html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:290px; }
-#npTitle { width:167px; }
+	audio { width:270px; }
+	html[data-useragent*="MSIE 9.0"] audio { width:280px; }
+	html[data-useragent*="MSIE 10.0"] audio { width:287px; }
+	html[data-useragent*="rv:11.0"] audio { width:295px; }
+	html[data-useragent*="OS 7"] audio { width:290px; }
+	html[data-useragent*="OS 8"] audio { width:294px; }
+	html[data-useragent*="OS 9"] audio { width:294px; }
+	html[data-useragent*="Chrome"] audio { width:277px; }
+	html[data-useragent*="Chrome"][data-useragent*="Mobile"] audio { margin-left:4px; width:290px; }
+	#npTitle { width:167px; }
 }

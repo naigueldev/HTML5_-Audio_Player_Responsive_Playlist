@@ -1,4 +1,5 @@
-// html5media enables <video> and <audio> tags in all major browsers
+
+              // html5media enables <video> and <audio> tags in all major browsers
 // External File: https://api.html5media.info/1.1.8/html5media.min.js
 
 
@@ -17,7 +18,7 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
         playing = false,
-        mediaPath = 'audios/',
+        mediaPath = 'musicas2/',
         extension = '',
         tracks = [{
             "track": 1,
@@ -29,6 +30,31 @@ jQuery(function ($) {
             "name": "klm1",
             "length": "0:30",
             "file": "klm1"
+        }, {
+            "track": 3,
+            "name": "klm2",
+            "length": "0:30",
+            "file": "klm2"
+        }, {
+            "track": 4,
+            "name": "klm4",
+            "length": "0:31",
+            "file": "klm4"
+        }, {
+            "track": 5,
+            "name": "klm5",
+            "length": "0:30",
+            "file": "klm5"
+        }, {
+            "track": 6,
+            "name": "maxprint",
+            "length": "0:32",
+            "file": "maxprint"
+        }, {
+            "track": 7,
+            "name": "multilaser",
+            "length": "0:31",
+            "file": "multilaser"
         }],
         buildPlaylist = $.each(tracks, function(key, value) {
             var trackNumber = value.track,
