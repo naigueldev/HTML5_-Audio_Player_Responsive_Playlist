@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5_ Audio_Player_Responsive_Playlist</title>
+    <link rel="stylesheet" type="text/css" href="css_index.css" />
+    <script language="javascript" src="http://code.sigasoft.com.br/jquery/latest.min.js"></script>
+
+    <script type="text/javascript" src="js_index.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="column center">
+            <h1>KLM Player</h1>
+        </div>
+        <div class="column add-bottom">
+            <div id="mainwrap">
+                <div id="nowPlay">
+                    <span class="left" id="npAction">Pausado...</span>
+                    <span class="right" id="npTitle"></span>
+                </div>
+                <div id="audiowrap">
+                    <div id="audio0">
+                        <audio preload id="audio1" controls="controls">
+                        Seu browser não suporta HTML5 Áudio!
+                        </audio>
+                    </div>
+                    <div id="tracks">
+                        <a id="btnPrev">&laquo;</a>
+                        <a id="btnNext">&raquo;</a>
+                    </div>
+                </div>
+                <div id="plwrap">
+                    <ul id="plList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
