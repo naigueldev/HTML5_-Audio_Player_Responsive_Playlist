@@ -18,7 +18,7 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
         playing = false,
-        mediaPath = 'musicas2/',
+        mediaPath = 'audios/',
         extension = '',
         tracks = [{
             "track": 1,
